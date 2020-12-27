@@ -1,6 +1,6 @@
 {
   "name": "tech-challenge-dec-2020",
-  "version": "0.0.1",
+  "version": "1.0.0-alpha.0",
   "description": "A program that solves the most suitable (with most power) link station for a device at a given point [x,y].",
   "main": "src/index.ts",
   "scripts": {
