@@ -53,7 +53,8 @@ If formatting/linting is not working:
 1. Choose Prettier as default formatter (in settings UI and Command Palette -> "Format document With" --> Configure Default formatter)
 2. Enable Format on Save
 
-## Development
+## How to run
 
 - 'npm i'
 - 'npm run start' or 'npm run dev' to launch
+- go to localhost and chosen port (default 8080) using a browser
