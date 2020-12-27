@@ -1,11 +1,9 @@
-interface LinkStationLocations {
-  [key: number]: [x: number, y: number, power: number]
-}
+import { LinkStationInfo } from '../types/linkStations'
 
-const linkStationsLocations: LinkStationLocations = {
-  0: [2, 0, 10],
-  1: [10, 0, 12],
-  2: [20, 20, 5],
-}
+const linkStationInfos: LinkStationInfo[] = [
+  { x: 2, y: 0, reach: 10 },
+  { x: 10, y: 0, reach: 12 },
+  { x: 20, y: 20, reach: 5 }
+]
 
-export { LinkStationLocations, linkStationsLocations }
+export { linkStationInfos }
