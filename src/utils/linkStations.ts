@@ -19,6 +19,7 @@ const getLinkStationPower = (
   const { deviceX, deviceY } = deviceLocation
   const distance = getDistanceBetweenPoints(x, y, deviceX, deviceY)
   const power = distance > reach ? 0 : Math.pow(reach - distance, 2)
+  console.log('linkStationInfo', JSON.stringify(linkStationInfo))
   console.log('distance:', distance, 'reach:', reach, 'power:', power)
   return power
 }
@@ -26,6 +27,7 @@ const getLinkStationPower = (
 const getLinkStationWithMostPower = (
   deviceLocation: DeviceLocation
 ): LinkStationInfoWithPower | undefined => {
+  console.log('deviceLocation:', JSON.stringify(deviceLocation))
   let linkStationWithMostPower = undefined
 
   let linkStationsWithAnyPower: LinkStationInfoWithPower[] = []

@@ -7,8 +7,10 @@ const port = 8080
 const rootResponse = getRootResponse()
 
 app.get('', (request, response) => {
-  response.send('<p>' + rootResponse + '</p>')
+  response.send(rootResponse)
 })
 
-// eslint-disable-next-line no-console
-app.listen(port, () => console.log(`server started on localhost port ${port}`))
+app.listen(port, () =>
+  // eslint-disable-next-line no-console
+  console.log(`server started on localhost port ${port}. http://localhost:8080`)
+)

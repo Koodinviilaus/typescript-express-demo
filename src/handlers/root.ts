@@ -23,7 +23,7 @@ const getRootResponse = (): string => {
         getNoLinkStationMessage(deviceLocation)
     }
   })
-  return response
+  return '<p>' + response + '</p>'
 }
 
 export { getRootResponse }
