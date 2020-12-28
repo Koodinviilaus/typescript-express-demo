@@ -1,4 +1,4 @@
-# Tech challenge
+# Simple TypeScript Express (Node.js) App
 
 ## Description
 
@@ -57,4 +57,4 @@ If formatting/linting is not working:
 
 - 'npm i'
 - 'npm run start' or 'npm run dev' to launch
-- go to localhost and chosen port (default 8080) using a browser
+- go to localhost on chosen port (default 8080) using a browser
