@@ -12,7 +12,8 @@
     "test:watch": "jest --watch"
   },
   "pre-commit": [
-    "lint"
+    "lint",
+    "test"
   ],
   "repository": {
     "type": "git",
