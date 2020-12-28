@@ -1,5 +1,5 @@
 {
-  "name": "tech-challenge-dec-2020",
+  "name": "typescript-express-demo",
   "version": "1.0.0-beta.0",
   "description": "A program that solves the most suitable (with most power) link station for a device at a given point [x,y].",
   "main": "src/index.ts",
@@ -17,15 +17,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Koodinviilaus/tech-challenge-dec-2020"
+    "url": "git+https://github.com/Koodinviilaus/typescript-express-demo"
   },
   "keywords": [],
   "author": "Lucas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Koodinviilaus/tech-challenge-dec-2020/issues"
+    "url": "https://github.com/Koodinviilaus/typescript-express-demo/issues"
   },
-  "homepage": "https://github.com/Koodinviilaus/tech-challenge-dec-2020#readme",
+  "homepage": "https://github.com/Koodinviilaus/typescript-express-demo#readme",
   "devDependencies": {
     "@types/eslint": "^7.2.6",
     "@types/express": "^4.17.9",
